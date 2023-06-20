@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
+    <script src="main.js"></script>
+    <title>オンラインサロン | サークルA</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header-flex">
+            <h1 id="header-logo">
+                <a href="#">
+                    logo
+                </a>
+            </h1>
+            <div id="header-nav" class="visible-pc">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a href="#feature">
+                            <span class="header-nav-item-en">FEATURE</span>
+                            <span class="header-nav-item-ja">本講座ついて</span>
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#support">
+                            <span class="header-nav-item-en">SUPPORT</span>
+                            <span class="header-nav-item-ja">サポート</span>
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#voice">
+                            <span class="header-nav-item-en">VOICE</span>
+                            <span class="header-nav-item-ja">受講生の声</span>
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#contents">
+                            <span class="header-nav-item-en">CONTENTS</span>
+                            <span class="header-nav-item-ja">コンテンツ内容</span>
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#price">
+                            <span class="header-nav-item-en">PRICE</span>
+                            <span class="header-nav-item-ja">料金</span>
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#faq">
+                            <span class="header-nav-item-en">FAQ</span>
+                            <span class="header-nav-item-ja">よくある質問</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="header-form" class="visible-pc">
+                <a href="" class="header-form-link">
+                    <span class="header-form-link-time">短時間で完了</span>
+                    <span class="header-form-link-contact">気軽に質問はこちら</span>
+                </a>
+            </div>
+        </div>
+        <div class="hamburger visible-ipad">
+            <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="slide-menu">
+                <nav id="hamburger-nav">
+                    <ul id="hamburger-nav-list">
+                        <li class="hamburger-nav-item">
+                            <a href="#feature">本講座について</a>
+                        </li>
+                        <li class="hamburger-nav-item">
+                            <a href="#support">サポート</a>
+                        </li>
+                        <li class="hamburger-nav-item">
+                            <a href="#voice">受講生の声</a>
+                        </li>
+                        <li class="hamburger-nav-item">
+                            <a href="#contents">コンテンツ内容</a>
+                        </li>
+                        <li class="hamburger-nav-item">
+                            <a href="#price">料金</a>
+                        </li>
+                        <li class="hamburger-nav-item">
+                            <a href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="hamburger-btn">
+                    <a href="">今すぐ無料相談</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="top">
+            <div class="background-img">
+                <img src="https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="背景画像">
+            </div>
+            <div class="top-content">
+                <div class="top-inner">
+                    <h1 class="top-inner-title">
+                        <span class="top-inner-title-pc">
+                            個性と収入を伸ばして<br>
+                            自分らしい人生を手に入れる
+                        </span>
+                    </h1>
+                    <!-- <div class="top-inner-desc">
+                        <div class="top-inner-desc-pc">
+                            テキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキスト<br>
+                            テキストテキストテキスト
+                        </div>
+                    </div> -->
+                    <div class="top-inner-btn">
+                        <a href="" class="btn">ご相談はこちらから</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="first-catch">
+            <h2 class="fadeOut"><strong>こんな疑問を持っていませんか？</strong> </h2>
+        </section>
+
+        <section id="second-catch">
+            <div class="catch-flex-odd">
+                <div class="catch-flex-img">
+                    <img src="https://icon-pit.com/wp-content/uploads/2020/01/office-worker_business_simple_5240-110x110.png" alt="人画像">
+                </div>
+                <div class="catch-flex-desc-odd">
+                    <p>オンラインで稼ぎたい
+                    </p>
+                </div>
+            </div>
+            <div class="catch-flex-even">
+                <div class="catch-flex-desc-even">
+                    <p>好きなことを仕事にしたい
+                    </p>
+                </div>
+                <div class="catch-flex-img">
+                    <img src="https://icon-pit.com/wp-content/uploads/2020/03/pc-operation_chat_9615-110x110.png" alt="人画像">
+                </div>
+            </div>
+            <div class="catch-flex-odd">
+                <div class="catch-flex-img">
+                    <img src="https://icon-pit.com/wp-content/uploads/2020/02/beginner_person_6210-110x110.png" alt="人画像">
+                </div>
+                <div class="catch-flex-desc-odd">
+                    <p>オンラインで収入をあげたい
+                    </p>
+                </div>
+            </div>
+            <div class="catch-flex-even">
+                <div class="catch-flex-desc-even">
+                    <p>自分らしく働きたい
+                    </p>
+                </div>
+                <div class="catch-flex-img">
+                    <img src="https://icon-pit.com/wp-content/uploads/2020/02/family_oyako_8894-110x110.png" alt="人画像">
+                </div>
+            </div>
+        </section>
+
+        <div class="down-arrow">
+            <img src="https://icon-pit.com/wp-content/uploads/2018/10/arrow_icon_414-110x110.png" alt="下矢印">
+        </div>
+
+        <section id="third-catch">
+            <div class="third-catch-title">
+                <h1 class="catch-title-h1-top">わたしスクール</h1>
+                <p class="third-catch-title-top">⚪︎⚪︎⚪︎ならそんな悩みも解決</p>
+                <h2 class="shine">オンラインビジネスって実はそんなに難しくないんです！</h2>
+                <p class="third-catch-title-bottom">⚪︎⚪︎⚪︎で動画編集始めませんか？</p>
+            </div>
+        </section>
+
+        <section id="aboutus">
+            <h3 class="sec-title fadeOut">
+                ABOUT US
+                <span class="sub-title fadeOut">わたしスクールについて</span>
+            </h3>
+            <div class="about-main">
+                <h4 class="about-main-title">
+                    <span>43歳からTwitterを始め、わずか2年でサイドFIREを実現したいれぶんが運営する、
+                        Twitterをきっかけに「最高の生き方」を手に入れる
+                        オンラインコミュニティ。
+                        クローズドのグループチャットを使って、
+                        Twitterの運用を軸とした基礎力やノウハウを学びながら、
+                        同じ志を持った、たくさんの仲間たちと交流して、高め合うことができます。
+                        参加することで、ほぼ毎日発信されるコラムや動画、
+                        テキストコンテンツ、オンライン講座、勉強会など、
+                        数多くの教材を好きな時に自由にご利用頂けます。</span>
+                </h4>
+                <div class="feature-contents">
+                    <!-- <h4 class="feature-contents-title" id="bg-red">学習の仕方テキストテキストテキスト</h4> -->
+                    <ul class="feature-contents-study-list">
+                        <li class="feature-contents-study-item">
+                            <img src="https://digital-hacks.jp/img/catch_third_01.jpg" alt="サンプル画像">
+                            <h5>Twitterで月100万円を達成</h5>
+                            <p>テキストテキストテキストテキスト</p>
+                        </li>
+                        <li class="feature-contents-study-item">
+                            <img src="https://digital-hacks.jp/img/catch_third_02.jpg" alt="サンプル画像">
+                            <h5>Youtubeで月100万円を達成</h5>
+                            <p>テキストテキストテキストテキスト</p>
+                        </li>
+                        <li class="feature-contents-study-item">
+                            <img src="https://digital-hacks.jp/img/catch_third_03.jpg" alt="サンプル画像">
+                            <h5>自由な働き方と収入を<br>
+                                同時に手に入れる</h5>
+                            <p>テキストテキストテキストテキスト</p>
+                        </li>
+                    </ul>
+                </div>
+                <p class="about-main-text">
+                    テキストテキストテキストテキストテキスト<br>
+                    テキストテキストテキストテキストテキストテキストテキスト<br>
+                    テキストテキストテキストテキストテキスト
+                </p>
+            </div>
+        </section>
+
+        <section id="feature">
+            <h3 class="sec-title fadeOut">
+                FEATURE
+                <span class="sub-title fadeOut">⚪︎⚪︎⚪︎の特徴</span>
+            </h3>
+            <div class="feature-contents">
+                <h4 class="feature-contents-title">カリキュラムテキストテキストテキスト</h4>
+                <ul class="feature-contents-curriculum-list">
+                    <li class="feature-contents-curriculum-item">
+                        <div class="curriculum-img">
+                            <img src="https://images.unsplash.com/photo-1589897657344-733d6b13596d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFMyU4MyU5MSVFMyU4MiVCRCVFMyU4MiVCMyVFMyU4MyVCMyUyMCVFNSU4QiU5NSVFNyU5NCVCQiVFNyVCNyVBOCVFOSU5QiU4NnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                        <div class="curriculum-desc curriculum-desc-odd">
+                            <div class="curriculum-desc-flex">
+                                <div class="curriculum-desc-num-box">
+                                    <h5 class="curriculum-desc-num">1</h5>
+                                </div>
+                                <div class="curriculum-desc-title-box">
+                                    <span class="curriculum-desc-title">強みを見つける</span>
+                                </div>
+                            </div>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </li>
+                    <li class="feature-contents-curriculum-item" id="curriculum-item-2">
+                        <div class="curriculum-desc curriculum-desc-even">
+                            <div class="curriculum-desc-flex">
+                                <div class="curriculum-desc-num-box">
+                                    <h5 class="curriculum-desc-num">2</h5>
+                                </div>
+                                <div class="curriculum-desc-title-box">
+                                    <span class="curriculum-desc-title">商品を作る</span>
+                                </div>
+                            </div>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                        <div class="curriculum-img">
+                            <img src="https://images.unsplash.com/photo-1529257970492-611e6f055357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fCVFMyU4MyU5MSVFMyU4MiVCRCVFMyU4MiVCMyVFMyU4MyVCMyUyMCVFNSU4QiU5NSVFNyU5NCVCQiVFNyVCNyVBOCVFOSU5QiU4NnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                    </li>
+                    <li class="feature-contents-curriculum-item">
+                        <div class="curriculum-img">
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWRvYmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                        <div class="curriculum-desc curriculum-desc-odd">
+                            <div class="curriculum-desc-flex">
+                                <div class="curriculum-desc-num-box">
+                                    <h5 class="curriculum-desc-num">3</h5>
+                                </div>
+                                <div class="curriculum-desc-title-box">
+                                    <span class="curriculum-desc-title">販売する</span>
+                                </div>
+                            </div>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <div class="detail-btn">
+                    <a href="" class="btn">ご相談はこちら</a>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="support">
+            <h3 class="sec-title fadeOut">
+                SUPPORT
+                <span class="sub-title fadeOut">⚪︎⚪︎⚪︎のサポート体制</span>
+            </h3>
+            <div class="support-contents">
+                <h4 class="feature-contents-title">サポート体制テキストテキストテキスト</h4>
+                <div class="third-catch-title">
+                    <p class="third-catch-title-top" id="feature-contents-title-top">どんな悩みもすぐに解決</p>
+                    <h2 id="feature-contents-title-h2">学習中、時には<strong>分からず躓く</strong>ことも・・・</h2>
+                    <p class="third-catch-title-bottom">そんなあなたをサポートします！</p>
+                </div>
+                <h4 class="support-contents-h4 shine">あなたのビジネス活動を私たちが徹底サポート！</h4>
+                <ul class="support-contents-list">
+                    <li class="support-contents-item">
+                        <div class="support-contents-item-text">
+                            <!-- <span class="text-black">テキストテキスト</span> -->
+                            <span class="text-red">豊富なコンテンツ</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JUU5JTlEJUEyJUU2JThFJUE1fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="面接画像">
+                        <p class="support-contents-item-desc">
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
+                    <li class="support-contents-item">
+                        <div class="support-contents-item-text">
+                            <!-- <span class="text-black">テキストテキスト</span> -->
+                            <span class="text-red">グループミーティングで悩み解消</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1631427962232-803d4f30c64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUUzJTgzJTgxJUUzJTgzJUEzJUUzJTgzJTgzJUUzJTgzJTg4fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="チャット画像">
+                        <p class="support-contents-item-desc">
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
+                    <li class="support-contents-item">
+                        <div class="support-contents-item-text">
+                            <!-- <span class="text-black">テキストテキスト</span> -->
+                            <span class="text-red">質問し放題、直接回答</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fCVFNyU5QiVCOCVFOCVBQiU4N3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="添削画像">
+                        <p class="support-contents-item-desc">
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
+                    <li class="support-contents-item">
+                        <div class="support-contents-item-text">
+                            <!-- <span class="text-black">テキストテキスト</span> -->
+                            <span class="text-red">補充されるコンテンツ</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1497015289639-54688650d173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JUU5JTlEJUEyJUU2JThFJUE1fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="技術画像">
+                        <p class="support-contents-item-desc">
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="voice">
+            <h3 class="sec-title fadeOut">
+                VOICE
+                <span class="sub-title fadeOut">受講生の声</span>
+            </h3>
+            <div class="voice">
+                <ul class="voice-list">
+                    <li class="voice-item">
+                        <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUU0JUJBJUJBfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"  class="voice-item-img" alt="">
+                        <dl class="content-type">
+                            <dt>種類</dt>
+                            <dd>動画編集</dd>
+                        </dl>
+                        <div class="voice-item-desc">
+                            <div class="voice-inner-desc">
+                                <div class="main-text-area">
+                                    <h4 class="voice-sub-title">テキストテキストテキストテキストテキストテキストテキスト</h4>
+                                    <p class="voice-item-name">あいう　えお(25)</p>
+                                    <p class="voice-short-text">テキストテキストテキストテキストテキストテキスト</p>
+                                </div>
+                            </div>
+                            <div class="more-btn">
+                                <span>さらに詳しく</span>
+                            </div>
+                            <div class="additional-text-area">
+                                <h4 class="additional-text-title">得られた成果</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">参加した感想</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">今後の抱負</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="voice-item">
+                        <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUU0JUJBJUJBfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"  class="voice-item-img" alt="">
+                        <dl class="content-type">
+                            <dt>種類</dt>
+                            <dd>動画編集</dd>
+                        </dl>
+                        <div class="voice-item-desc">
+                            <div class="voice-inner-desc">
+                                <div class="main-text-area">
+                                    <h4 class="voice-sub-title">テキストテキストテキストテキストテキストテキストテキスト</h4>
+                                    <p class="voice-item-name">あいう　えお(25)</p>
+                                    <p class="voice-short-text">テキストテキストテキストテキストテキストテキスト</p>
+                                </div>
+                            </div>
+                            <div class="more-btn">
+                                <span>さらに詳しく</span>
+                            </div>
+                            <div class="additional-text-area">
+                                <h4 class="additional-text-title">得られた成果</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">参加した感想</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">今後の抱負</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="voice-item">
+                        <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUU0JUJBJUJBfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"  class="voice-item-img" alt="">
+                        <dl class="content-type">
+                            <dt>種類</dt>
+                            <dd>動画編集</dd>
+                        </dl>
+                        <div class="voice-item-desc">
+                            <div class="voice-inner-desc">
+                                <div class="main-text-area">
+                                    <h4 class="voice-sub-title">テキストテキストテキストテキストテキストテキストテキスト</h4>
+                                    <p class="voice-item-name">あいう　えお(25)</p>
+                                    <p class="voice-short-text">テキストテキストテキストテキストテキストテキスト</p>
+                                </div>
+                            </div>
+                            <div class="more-btn">
+                                <span>さらに詳しく</span>
+                            </div>
+                            <div class="additional-text-area">
+                                <h4 class="additional-text-title">得られた成果</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">参加した感想</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                                <h4 class="additional-text-title">今後の抱負</h4>
+                                <p class="additional-text">テキストテキストテキストテキストテキストテキスト</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contents">
+            <h3 class="sec-title fadeOut">
+                CONTENTS
+                <span class="sub-title fadeOut">コンテンツ内容</span>
+            </h3>
+            <div class="contents">
+                <div class="inner-contents-area fadeOut">
+                    <div class="curriculum-desc-flex inner-contents-title-flex">
+                        <div class="curriculum-desc-num-box">
+                            <h5 class="curriculum-desc-num">1</h5>
+                        </div>
+                        <div class="curriculum-desc-title-box">
+                            <span class="curriculum-desc-title inner-contents-area-title">コンテンツ1</span>
+                        </div>
+                    </div>
+                    <div class="inner-contents-flex">
+                        <div class="inner-contents-flex-img">
+                            <img src="https://images.unsplash.com/photo-1589897657344-733d6b13596d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFMyU4MyU5MSVFMyU4MiVCRCVFMyU4MiVCMyVFMyU4MyVCMyUyMCVFNSU4QiU5NSVFNyU5NCVCQiVFNyVCNyVBOCVFOSU5QiU4NnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                        <div class="inner-contents-flex-desc">
+                            <h4 class="inner-contents-flex-desc-subtitle">タイトルタイトルタイトル</h4>
+                            <ul class="inner-contents-flex-list">
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-contents-area fadeOut">
+                    <div class="curriculum-desc-flex inner-contents-title-flex">
+                        <div class="curriculum-desc-num-box">
+                            <h5 class="curriculum-desc-num">2</h5>
+                        </div>
+                        <div class="curriculum-desc-title-box">
+                            <span class="curriculum-desc-title inner-contents-area-title">コンテンツ2</span>
+                        </div>
+                    </div>
+                    <div class="inner-contents-flex">
+                        <div class="inner-contents-flex-img">
+                            <img src="https://images.unsplash.com/photo-1589897657344-733d6b13596d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFMyU4MyU5MSVFMyU4MiVCRCVFMyU4MiVCMyVFMyU4MyVCMyUyMCVFNSU4QiU5NSVFNyU5NCVCQiVFNyVCNyVBOCVFOSU5QiU4NnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                        <div class="inner-contents-flex-desc">
+                            <h4 class="inner-contents-flex-desc-subtitle">タイトルタイトルタイトル</h4>
+                            <ul class="inner-contents-flex-list">
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-contents-area fadeOut">
+                    <div class="curriculum-desc-flex inner-contents-title-flex">
+                        <div class="curriculum-desc-num-box">
+                            <h5 class="curriculum-desc-num">3</h5>
+                        </div>
+                        <div class="curriculum-desc-title-box">
+                            <span class="curriculum-desc-title inner-contents-area-title">コンテンツ3</span>
+                        </div>
+                    </div>
+                    <div class="inner-contents-flex">
+                        <div class="inner-contents-flex-img">
+                            <img src="https://images.unsplash.com/photo-1589897657344-733d6b13596d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFMyU4MyU5MSVFMyU4MiVCRCVFMyU4MiVCMyVFMyU4MyVCMyUyMCVFNSU4QiU5NSVFNyU5NCVCQiVFNyVCNyVBOCVFOSU5QiU4NnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                        </div>
+                        <div class="inner-contents-flex-desc">
+                            <h4 class="inner-contents-flex-desc-subtitle">タイトルタイトルタイトル</h4>
+                            <ul class="inner-contents-flex-list">
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                                <li class="inner-contents-flex-item">テキストテキストテキストテキスト</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="price">
+            <h3 class="sec-title fadeOut">
+                PRICE
+                <span class="sub-title fadeOut">本講座の料金について</span>
+            </h3>
+            <div class="price-item-box">
+                <p class="price-item-intro">スキルを集中的に学びたい方向け</p>
+                <h4 class="course-name">⚪︎⚪︎コース</h4>
+                <div class="course-detail">
+                    <h5 class="course-detail-title">未経験から<span>動画編集をマスター</span>できる</h5>
+                    <p class="course-detail-desc">
+                        Premiere Pro / After Effectsを使用して動画編集の基礎から体系的に学習を進めていきます。
+                        YouTube編集や、モーショングラフィックスを習得することが出来ます。
+                    </p>
+                </div>
+                <dl class="price-content">
+                    <dt>受講料金</dt>
+                    <dd><span>148,000円(税込)</span></dd>
+                    <dt>分割料金</dt>
+                    <dd><span>月々6,200円~</span></dd>
+                    <dt>サポート期間</dt>
+                    <dd><span>90日間</span></dd>
+                </dl>
+                <h5 class="course-content-title">学べる内容</h5>
+                <ul class="course-content">
+                    <li class="course-content-item">Premiere Pro</li>
+                    <li class="course-content-item">After Effect</li>
+                    <li class="course-content-item">YouTube編集講座</li>
+                    <li class="course-content-item">サムネイル制作</li>
+                    <li class="course-content-item">モーション<br>グラフィックス</li>
+                    <li class="course-content-item">編集力アップ<br>講座</li>
+                </ul>
+            </div>
+            <div class="price-btn-area">
+                <div class="price-inner-area">
+                    <p class="price-area-subtitle">30秒で簡単予約</p>
+                    <p class="price-area-title">無料相談受付中</p>
+                    <div class="price-inner-btn">
+                        <a href="" class="btn">無料ご相談はこちらから</a>
+                    </div>
+                    <p class="price-area-attention">※無理な勧誘等は一切行っておりません</p>
+                </div>
+                <ul class="price-area-list">
+                    <li class="price-area-item">
+                        <p class="price-area-item-desc">毎日9:00~21:00まで実施中</p>
+                    </li>
+                    <li class="price-area-item">
+                        <p class="price-area-item-desc">自分に合った学習方法が分かる</p>
+                    </li>
+                    <li class="price-area-item">
+                        <p class="price-area-item-desc">実際のカリキュラムを確認</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="message">
+            <h3 class="sec-title">
+                MESSAGE
+                <span class="sub-title">サイト運営者のメッサージ</span>
+            </h3>
+            <div class="message">
+                <img src="https://pixabay.com/get/ge3ad05f757eb246fcb698d5fd4549387725fcca7ee756ea9bcd9222968237f4de4d646646527277754ffadf8fa3645b40574ee2bcfb954f8d45614f79648d806_640.jpg" alt="">
+                <div class="message-text-area">
+                    <h4 class="message-text-title">タイトルタイトルタイトルタイトル</h4>
+                    <p class="message-text">テキストテキストテキストテキストテキストテキスト</p>
+                    <p class="message-text">テキストテキストテキストテキストテキストテキスト</p>
+                    <p class="message-text">テキストテキストテキストテキストテキストテキスト</p>
+                    <p class="message-text">テキストテキストテキストテキストテキストテキスト</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <h3 class="sec-title">
+                FAQ
+                <span class="sub-title">よくある質問</span>
+            </h3>
+            <ul class="accordion-area">
+                <li class="accordion-item">
+                    <h4 class="accordion-title">faqテキスト</h4>
+                    <div class="accordion-desc">
+                        <p>内容テキストテキスト</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <h4 class="accordion-title">faqテキスト</h4>
+                    <div class="accordion-desc">
+                        <p>内容テキストテキスト</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <h4 class="accordion-title">faqテキスト</h4>
+                    <div class="accordion-desc">
+                        <p>内容テキストテキスト</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <div class="price-btn-area">
+        <div class="price-inner-area">
+            <p class="price-area-subtitle">30秒で簡単予約</p>
+            <p class="price-area-title">無料相談受付中</p>
+            <div class="price-inner-btn">
+                <a href="" class="btn">無料ご相談はこちらから</a>
+            </div>
+            <p class="price-area-attention">※無理な勧誘等は一切行っておりません</p>
+        </div>
+        <ul class="price-area-list">
+            <li class="price-area-item">
+                <p class="price-area-item-desc">毎日9:00~21:00まで実施中</p>
+            </li>
+            <li class="price-area-item">
+                <p class="price-area-item-desc">自分に合った学習方法が分かる</p>
+            </li>
+            <li class="price-area-item">
+                <p class="price-area-item-desc">実際のカリキュラムを確認</p>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer">
+        <div class="footer-contents">
+            <ul class="footer-link-list">
+                <li class="footer-link-item"><a href="#">トップ</a></li>
+                <li class="footer-link-item"><a href="#feature">本講座について</a></li>
+                <li class="footer-link-item"><a href="#support">サポート</a></li>
+                <li class="footer-link-item"><a href="#price">料金</a></li>
+                <li class="footer-link-item"><a href="#faq">よくある質問</a></li>
+            </ul>
+        </div>
+        <p class="copy-right">&copy;2023 サークルA All rights reserved</p>
+    </footer>
+</body>
+</html>
